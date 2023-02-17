@@ -1,0 +1,59 @@
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.menu {
+	margin: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.menu label {
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+.menu select {
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+#maze {
+	position: relative;
+	width: 800px;
+	height: 600px;
+	border: 1px solid black;
+}
+
+.cell {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.wall {
+	background-color: black;
+}
+
+.start {
+	background-color: green;
+}
+
+.end {
+	background-color: red;
+}
+
+.path {
+	background-color: rgb(22, 171, 121);
+}
+
+button {
+	font-size: 18px;
+}

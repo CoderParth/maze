@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Maze Solver</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="menu">
+			<label for="algorithm-select">Select algorithm:</label>
+			<select id="algorithm-select">
+				<option value="bfs">Breadth-First Search</option>
+				<option value="dfs">Depth-First Search</option>
+        <option value="dijkstra">Dijkstra's algorithm</option>
+			</select>
+			<button id="start-button">Start</button>
+			<button id="reset-button">Reset</button>
+		</div>
+		<div id="maze"></div>
+    <div>Read me:
+      <p> First select the algorithm. Then click on a white cell to create
+        the starting point. Click again to create the end point. After that
+        click on "Start" button. Maze will be solved. Press reset to clear the maze.
+      </p>
+    </div>
+		<script src="script.js"></script>
+	</body>
+</html>
